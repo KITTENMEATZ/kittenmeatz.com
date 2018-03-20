@@ -11,6 +11,7 @@ body {
   background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-position: center top;
   color: #efefef;
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
@@ -44,7 +45,7 @@ container {
 }
 
 footer {
-  margin: 6em 0 0;
+  margin: 1em 0 0;
 }
 
 footer ul {
@@ -64,15 +65,15 @@ footer p {
 }
 
 footer ul a {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
   display: block;
   float: left;
 }
 
 footer a {
   transition: 0.5s;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 footer a:active, footer a:focus, footer a:hover {
@@ -99,4 +100,10 @@ footer p a {
 footer p a:hover {
   color: #060606;
   background: #efefef;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-size: 200% auto;
+    }
 }
