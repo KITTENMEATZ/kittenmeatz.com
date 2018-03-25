@@ -112,6 +112,7 @@ article#about, article#contact {
 }
 
 article#studio {
+  background-color: #000;
   background-image: url(/images/kittenmeatz-com_studio.jpg);
   background-position: left;
   text-align: right;
