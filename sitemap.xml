@@ -4,6 +4,12 @@
     <loc>http://kittenmeatz.com</loc>
   </url>
   <url>
+    <loc>http://kittenmeatz.com/about</loc>
+  </url>
+  <url>
+    <loc>http://kittenmeatz.com/contact</loc>
+  </url>
+  <url>
     <loc>http://kittenmeatz.com/studio</loc>
   </url>
 </urlset>
